@@ -1,30 +1,49 @@
 * {
-	box-sizing:border-box
+  box-sizing:border-box
 }
 body {
-	font-size: 16px;
-	color: #fff;
-	font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-family: sans-serif;
 }
 
 .navbar{
-	position: fixed;
-	width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
+#donate {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  background-color: #ff3333;
+  width: 80px;
+  height: 30px;
+  color: black;
+}
+
+#donate-name {
+  color: black;
+}
+
+#donate:hover {
+  width: 100px;
+  height: 35px;
+  font-size: 1.3em;
+}
 
 #header-nav {
-	background-color: #32b4e5;
-	border-radius: 0;
-	border: 0;
+  background-color: #32b4e5;
+  border-radius: 0;
+  border: 0;
 }
 
 #logo-img {
-	background: url('../images/logo_1_large.png') no-repeat;
-	width: 100px;
-	height: 100px;
-	margin: 10px 15px 10px 0;
-	border-radius: 10px;
+  background: url('../images/logo_1_large.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+  border-radius: 10px;
 }
 
 .navbar-brand, #collapsable-nav {
@@ -52,28 +71,38 @@ body {
 }
 
 #nav-list {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 #nav-list a {
-	text-align: center;
-	color: black;
+  text-align: center;
+  color: black;
 }
 
 #nav-list a:hover {
-	background: #E7E7E7;
+  background: #E7E7E7;
 }
 ul .dropdown-menu {
-	position: relative;
+  position: relative;
 }
 
 .navbar-header button.navbar-toggle {
-	border: 1px lightpink;
-	clear: both;
-	margin-top: -30px;
+  border: 1px lightpink;
+  clear: both;
+  margin-top: -30px;
 }
 
 /* End of Header*/
+
+/*START of Image sliding in Jumbotron*/
+.img-slide {
+  margin-top: 100px;
+  height: 500px;
+}
+
+
+/*END of Image sliding in Jumbotron*/
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -86,11 +115,11 @@ ul .dropdown-menu {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-	background: url('../images/logo_2_medium.png') no-repeat;
-	width: 75px;
-	height: 75px;
-	margin: 5px 5px 5px 0;
-	border-radius: 10px;
+  background: url('../images/logo_2_medium.png') no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
 }
 
   #nav-list {
