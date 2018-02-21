@@ -1,0 +1,347 @@
+* {
+  box-sizing:border-box
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: sans-serif ;
+}
+
+
+#header-nav {
+  background-color: #98CC9B;
+
+}
+
+#logo-img {
+  background: url('../images/logo_large.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+  border-radius: 10px;
+}
+
+.navbar-brand, #collapsable-nav {
+  padding-top: 25px;
+}
+
+.navbar-brand h2 { 
+  font-family: 'Allerta Stencil';
+  color: #003366;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand p, #ngo-link { 
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: 'Allerta Stencil';
+  color: black;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  text-align: center;
+  color: #003366;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+ul .dropdown-menu {
+  position: relative;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px lightpink;
+  clear: both;
+  margin-top: -30px;
+}
+
+/* End of Header*/
+
+.jumbotron {
+  background-color: white;
+}
+
+/*START of Image sliding in Jumbotron*/
+
+
+#img-slide {
+  margin-top: 80px;
+}
+
+.image-text {
+  width: 600px;
+  height: 120px;
+  background-color: #003366;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  /*opacity: 0.8;*/
+}
+
+.image-text > div {
+  width: 550px;
+  height: 60px;
+  background-color: #98CC9B;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.image-text > p {
+  margin: 10px 10px 10px 50px;
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-style: italic;
+}
+
+.image-text > div > p {
+  text-align: center;
+  margin-top: 10px; 
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-style: italic;
+}
+
+
+/*END of Image sliding in Jumbotron*/
+
+/*Support us*/
+
+#support-us {
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+}
+
+#support-us > h2 {
+  color: #003366;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+/*Support us*/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+#nav-list {
+    height: 50px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+  background: url('../images/logo_medium.png') no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+}
+
+#nav-list {
+    height: 50px;
+  }
+  /* End Header */
+
+  /*START of Image sliding in Jumbotron*/
+  .image-text {
+    width: 500px;
+    height: 100px;
+    background-color: #003366;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    /*opacity: 0.8;*/
+  }
+
+  .image-text > div {
+    width: 450px;
+    height: 50px;
+    background-color: #98CC9B;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .image-text > p {
+    margin: 10px 10px 10px 50px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+  }
+
+  .image-text > div > p {
+    text-align: center;
+    margin-top: 10px; 
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+  }
+  
+  /*END of Image sliding in Jumbotron*/
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#logo-img {
+  background: url('../images/logo_small.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+}
+
+#nav-list {
+    height: 50px;
+  }
+
+  /*START of Image sliding in Jumbotron*/
+  .image-text {
+    width: 400px;
+    height: 75px;
+    background-color: #003366;
+    position: absolute;
+    top: 250px;
+    right: 80px;
+    /*opacity: 0.8;*/
+  }
+
+  .image-text > div {
+    width: 350px;
+    height: 35px;
+    background-color: #98CC9B;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .image-text > p {
+    margin: 10px 10px 10px 50px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  .image-text > div > p {
+    text-align: center;
+    margin-top: 10px; 
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  /*END of Image sliding in Jumbotron*/
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h2 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p {
+    font-size: 1.0em;
+    margin-top: 12px;
+  }
+  
+  /* End Header */
+
+  /*START of Image sliding in Jumbotron*/
+  .image-text {
+    width: 350px;
+    height: 50px;
+    background-color: #003366;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    /*opacity: 0.8;*/
+  }
+
+  .image-text > div {
+    width: 300px;
+    height: 22px;
+    background-color: #98CC9B;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .image-text > p {
+    margin: 10px 10px 10px 50px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  .image-text > div > p {
+    text-align: center;
+    margin-top: 2px; 
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  /*END of Image sliding in Jumbotron*/
+}
+
+/********** Extra Extra small devices only **********/
+@media (max-width: 550px) {
+/*START of Image sliding in Jumbotron*/
+  .image-text {
+    width: 200px;
+    height: 40px;
+    background-color: #003366;
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    /*opacity: 0.8;*/
+  }
+
+  .image-text > div {
+    width: 170px;
+    height: 20px;
+    background-color: #98CC9B;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .image-text > p {
+    margin: 5px 10px 10px 30px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  .image-text > div > p {
+    text-align: center;
+    margin-top: 2px; 
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  /*END of Image sliding in Jumbotron*/
+}
