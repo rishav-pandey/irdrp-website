@@ -108,7 +108,7 @@ ul .dropdown-menu {
 
 .image-text > div > p {
   text-align: center;
-  margin-top: 10px; 
+  margin-top: 0px; 
   color: white;
   font-family: 'Allerta Stencil', sans-serif;
   font-style: italic;
@@ -153,6 +153,8 @@ ul .dropdown-menu {
   background-color: #98CC9B;
   color: black;
 }
+
+
 /*Support us*/
 
 
