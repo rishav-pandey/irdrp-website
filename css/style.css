@@ -4,7 +4,8 @@
 body {
   font-size: 16px;
   color: #fff;
-  font-family: sans-serif ;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 
@@ -147,6 +148,7 @@ ul .dropdown-menu {
   height: 50px;
   color: white;
   font-size: 2.0em;
+  margin-bottom: 10px;
 }
 
 .donate-button:hover {
