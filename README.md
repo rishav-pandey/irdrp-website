@@ -7,6 +7,6 @@
 
 ##### _Whole webite is created using `HTML5` , `CSS3` , `Bootstrap 3.3` , `JavaScript` , `JQuery`_
 
-#### _Click [here](rishavpandey.me/irdrp-website/) to open the website._
+#### _Click [here](http://rishavpandey.me/irdrp-website/) to open the website._
 
 **_Thanks for watching :)_**
