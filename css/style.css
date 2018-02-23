@@ -141,7 +141,7 @@ ul .dropdown-menu {
   font-size: 1.1em;
 }
 
-.donate-button {
+#donate-button {
   background-color: #003366;
   border-radius: 15px;
   border-style: solid;
@@ -153,7 +153,7 @@ ul .dropdown-menu {
   margin-bottom: 10px;
 }
 
-.donate-button:hover {
+#donate-button:hover {
   background-color: #98CC9B;
   color: black;
 }
@@ -202,6 +202,7 @@ ul .dropdown-menu {
   padding: 10px;
   opacity: 0.8;
   display: none;
+  font-size: 16px;
 }
 
 
@@ -271,6 +272,7 @@ ul .dropdown-menu {
   }
   
   /*END of Image sliding in Jumbotron*/
+
 }
 
 /********** Small devices only **********/
@@ -324,6 +326,7 @@ ul .dropdown-menu {
     font-size: 1.2em;
   }
   /*END of Image sliding in Jumbotron*/
+
 }
 
 
@@ -382,6 +385,14 @@ ul .dropdown-menu {
     font-size: 1.2em;
   }
   /*END of Image sliding in Jumbotron*/
+
+  /*latest events*/
+  
+  .event-comment {
+  font-size: 2.3vw;
+  }
+
+  /*latest events*/
 }
 
 /********** Extra Extra small devices only **********/
