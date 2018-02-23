@@ -195,7 +195,7 @@ ul .dropdown-menu {
   color: white;
 }
 
-.latest-events > span {
+.event-comment {
   position: absolute;
   bottom: 0px;
   background-color: #98CC9B;
@@ -203,6 +203,7 @@ ul .dropdown-menu {
   opacity: 0.8;
   display: none;
 }
+
 
 /*latest events*/
 
