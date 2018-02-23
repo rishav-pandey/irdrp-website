@@ -10,7 +10,6 @@ body {
 
 #header-nav {
   background-color: #98CC9B;
-
 }
 
 #logo-img {
@@ -73,6 +72,8 @@ ul .dropdown-menu {
   background-color: white;
 }
 
+/*JUMBOTRON*/
+
 /*START of Image sliding in Jumbotron*/
 
 
@@ -121,7 +122,7 @@ ul .dropdown-menu {
 
 
 #support-us {
-  margin: 20px 10px 40px 10px;
+  margin: 20px 10px 0px 10px;
   padding: 10px;
 }
 
@@ -133,6 +134,7 @@ ul .dropdown-menu {
 #support-us > p {
   font-style: italic;
   text-align: center;
+  color: black;
 }
 
 #support-us > p > span {
@@ -159,6 +161,52 @@ ul .dropdown-menu {
 
 /*Support us*/
 
+/*latest events*/
+
+#latest-events-title {
+  margin: 10px;
+  text-align: center;
+  font-size: 3.5em;
+  color: #003366;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.latest-events {
+  border: 2px solid #003366;
+  width: auto;
+  height: auto;
+  font-family: serif;
+  margin: 20px;
+  position: relative;
+}
+
+.latest-events > img {
+  width: 100%;
+  height: 100%;
+}
+
+.event-date {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border: 1px solid black;
+  padding: 10px 20px 10px;
+  background-color: #003366;
+  color: white;
+}
+
+.latest-events > span {
+  position: absolute;
+  bottom: 0px;
+  background-color: #98CC9B;
+  padding: 10px;
+  opacity: 0.8;
+  display: none;
+}
+
+/*latest events*/
+
+/*JUMBOTRON*/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
