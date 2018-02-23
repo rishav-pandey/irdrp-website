@@ -87,8 +87,7 @@ ul .dropdown-menu {
   background-color: #003366;
   position: absolute;
   top: 400px;
-  right: 100px;
-  /*opacity: 0.8;*/
+  right: 100px
 }
 
 .image-text > div {
@@ -221,18 +220,22 @@ ul .dropdown-menu {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
+  
   #logo-img {
   background: url('../images/logo_medium.png') no-repeat;
   width: 75px;
   height: 75px;
   margin: 5px 5px 5px 0;
   border-radius: 10px;
-}
+  }
 
-#nav-list {
+  #nav-list {
     height: 50px;
   }
+  
   /* End Header */
+
+  /*JUMBOTRON*/
 
   /*START of Image sliding in Jumbotron*/
   .image-text {
@@ -242,7 +245,6 @@ ul .dropdown-menu {
     position: absolute;
     top: 300px;
     right: 100px;
-    /*opacity: 0.8;*/
   }
 
   .image-text > div {
@@ -273,22 +275,26 @@ ul .dropdown-menu {
   
   /*END of Image sliding in Jumbotron*/
 
+  /*JUMBOTRON*/
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-#logo-img {
+  #logo-img {
   background: url('../images/logo_small.png') no-repeat;
   width: 50px;
   height: 50px;
   margin: 5px 5px 5px 0;
   border-radius: 10px;
-}
+  }
 
-#nav-list {
+  #nav-list {
     height: 50px;
   }
+
+  /*JUMBOTRON*/
 
   /*START of Image sliding in Jumbotron*/
   .image-text {
@@ -298,7 +304,6 @@ ul .dropdown-menu {
     position: absolute;
     top: 250px;
     right: 80px;
-    /*opacity: 0.8;*/
   }
 
   .image-text > div {
@@ -327,6 +332,8 @@ ul .dropdown-menu {
   }
   /*END of Image sliding in Jumbotron*/
 
+  /*JUMBOTRON*/
+
 }
 
 
@@ -349,6 +356,8 @@ ul .dropdown-menu {
   
   /* End Header */
 
+  /*JUMBOTRON*/
+
   /*START of Image sliding in Jumbotron*/
   .image-text {
     width: 500px;
@@ -357,7 +366,6 @@ ul .dropdown-menu {
     position: absolute;
     top: 200px;
     right: 50px;
-    /*opacity: 0.8;*/
   }
 
   .image-text > div {
@@ -389,15 +397,21 @@ ul .dropdown-menu {
   /*latest events*/
   
   .event-comment {
-  font-size: 2.3vw;
+  font-size: 2.5vw;
   }
 
   /*latest events*/
+
+  /*JUMBOTRON*/
+
 }
 
 /********** Extra Extra small devices only **********/
 @media (max-width: 550px) {
-/*START of Image sliding in Jumbotron*/
+  
+  /*JUMBOTRON*/
+
+  /*START of Image sliding in Jumbotron*/
   .image-text {
     width: 200px;
     height: 40px;
@@ -405,7 +419,6 @@ ul .dropdown-menu {
     position: absolute;
     top: 100px;
     right: 40px;
-    /*opacity: 0.8;*/
   }
 
   .image-text > div {
@@ -433,4 +446,7 @@ ul .dropdown-menu {
     font-size: 1.8vw;
   }
   /*END of Image sliding in Jumbotron*/
+
+  /*JUMBOTRON*/
+
 }
