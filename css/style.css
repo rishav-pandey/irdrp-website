@@ -212,7 +212,6 @@ ul .dropdown-menu {
 /*FOOTER*/
 
 footer {
-	margin-top: 50px;
 	background-color: #98CC9B;
 }
 
@@ -511,8 +510,19 @@ footer {
 
   #contact-detail {
 	padding: 10px;
-	font-size: 4vw;
+	font-size: 5vw;
 	color: black;
-}
+	}
 
+	#contact-detail {
+		width: 160%;
+		margin-left: -55px;
+	}
+
+	#map {
+		width: 160%;
+		margin: -50px 0px 0px -55px;
+	}
+
+	/*FOOTER*/
 }
