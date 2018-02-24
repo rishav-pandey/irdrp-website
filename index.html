@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
   </head>
 <body>
-  <header>
+  <header id="home">
     <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -43,11 +43,11 @@
           </div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+      		</button>
         </div>
 
         <div class="collapse navbar-collapse" id="collapsable-nav" >
@@ -86,8 +86,8 @@
               </ul>
             </li>
           </ul>     
-        </div>
-      </div>
+        </div> <!-- .collapse -->
+      </div> <!-- .container-fluid -->
     </nav> <!-- #header-nav -->
   </header> 
 
@@ -137,34 +137,28 @@
 		  </div>
 
 		  <!-- Left and right controls -->
-		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-    </div> <!-- #img-slide -->
-
-    <div class="container-fluid" id="support-us">
-    		<h2>SUPPORT US</h2>
-        <p >To continue working for the women we require your valuable support. We have numerous programmes running in several states of South India. We run solely on donations and to sustain our projects and continue setting up more of them, your support is absolutely vital.</p>
-        <p>We take pride in the fact that in 2015, with the generous support of our donors, we were able to give huge number of women a better future.</p>
-        <p>Any amount donated by you will be utilized by <span>Women Empowerment Trust</span> to strategize and execute on-ground projects to benefit the most vulnerable Women of India. We ensure that our response is timely and is delivered at an appropriate scale. While we appreciate one-time donations, monthly donations help us plan our programmes better and sustain them for a longer duration.</p>
-        <p>Please come forward and donate whatever amount you can afford. Even a nominal amount of ₹500 per month will make a big difference in the life of a Women in need. Your support can help us rescue a Women from Women labour and send them to school. It can empower us help a malnourished infant lead a healthy life.</p> 
-        <p style="font-style: italic;">Please follow us on Facebook and Twitter to get updates on our work.</p>
-        <p> <span>Women Empowerment Trust</span> is very transparent with its spends. Last year, we spent 89% of what we got as donations to run programmes across India.Click <a href="" target="_blank"><strong>here</strong></a> to download our Annual Reports.</p>
-        <div style="text-align: center;">
-          <a href="#" target="_blank"><button id="donate-button" onmouseenter="colorred()" onmouseleave="colorwhite()"> <span class="fa fa-heart"></span> Donate</button></a>
-        </div>
-        <p><strong>All donations made to Women Empowerment Trust are eligible for tax exemption under Section 80G of the Income Tax Act, 1961.</strong></p>
-    </div> <!-- #support-us -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+  	</div> <!-- #img-slide -->
     
+  	<div class="container-fluid" id="intro">
+  		<h2>Who we are</h2>
+  		<p>
+  			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+  		</p>
+  	</div>
+
     <div class="container-fluid" id="event">
       <div id="latest-events-title">
-          Latest Events
+          <h2>Latest Events</h2>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -202,6 +196,20 @@
 
       </div> <!-- row -->
     </div> <!-- latest-events -->
+    <div class="container-fluid" id="support-us">
+    		<h2>SUPPORT US</h2>
+        <p >To continue working for the women we require your valuable support. We have numerous programmes running in several states of South India. We run solely on donations and to sustain our projects and continue setting up more of them, your support is absolutely vital.</p>
+        <p>We take pride in the fact that in 2015, with the generous support of our donors, we were able to give huge number of women a better future.</p>
+        <p>Any amount donated by you will be utilized by <span>Women Empowerment Trust</span> to strategize and execute on-ground projects to benefit the most vulnerable Women of India. We ensure that our response is timely and is delivered at an appropriate scale. While we appreciate one-time donations, monthly donations help us plan our programmes better and sustain them for a longer duration.</p>
+        <p>Please come forward and donate whatever amount you can afford. Even a nominal amount of ₹500 per month will make a big difference in the life of a Women in need. Your support can help us rescue a Women from moving to the dark side of life. It can empower us help a malnourished lead a healthy life.</p> 
+        <p>Please follow us on Facebook and Twitter to get updates on our work.</p>
+        <p> <span>Women Empowerment Trust</span> is very transparent with its spends. Last year, we spent 89% of what we got as donations to run programmes across India.Click <a href="" target="_blank"><strong>here</strong></a> to download our Annual Reports.</p>
+        <div style="text-align: center;">
+          <a href="#" target="_blank"><button id="donate-button" onmouseenter="colorred()" onmouseleave="colorwhite()"> <span class="fa fa-heart"></span> Donate</button></a>
+        </div>
+        <p style="text-align: center; font-family: 'Montserrat'"><strong>All donations made to Women Empowerment Trust are eligible for tax exemption under Section 80G of the Income Tax Act, 1961.</strong></p>
+    </div> <!-- #support-us -->
+
   </div>  <!-- .jumbotron -->
 
   <footer class="container-fluid">
@@ -250,6 +258,10 @@
         </p>
         <p style="font-family: 'Montserrat';">Developed and Maintained by <a href="http://rishavpandey.me" target="_blank" style="color: #003366;">Rishav Pandey</a></p>
   		</div>
+  	</div>
+  	<hr>
+  	<div style="text-align: center;">
+  		<a href="index.html#home"> <img src="images/top-arrow.png" alt="move to top"> </a>
   	</div>
   	<hr>
   </footer>

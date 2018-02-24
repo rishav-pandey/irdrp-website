@@ -64,12 +64,12 @@ ul .dropdown-menu {
 
 .jumbotron {
   background-color: white;
+  padding-bottom: 0px;
 }
 
 /*JUMBOTRON*/
 
 /*START of Image sliding in Jumbotron*/
-
 
 #img-slide {
   margin-top: 80px;
@@ -104,63 +104,38 @@ ul .dropdown-menu {
   text-align: center;
   margin-top: 0px; 
   color: white;
-  font-family:  'Neuton', sans-serif;
+  font-family: 'Neuton', sans-serif;
   font-style: italic;
 }
-
 
 /*END of Image sliding in Jumbotron*/
 
-/*Support us*/
+/*Introduction*/
 
+#intro > h2 {
+	font-family: 'Montserrat', sans-serif;
+  color: #003366;
+}
 
-#support-us {
-  margin: 20px 10px 0px 10px;
+#intro {
+	margin: 0px 10px 0px 10px;
   padding: 10px;
 }
 
-#support-us > h2 {
-  color: #003366;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#support-us > p {
+#intro > p {
+  font-family: 'Neuton', sans-serif;
   font-style: italic;
   color: black;
 }
-
-#support-us > p > span {
-  font-size: 1.1em;
-}
-
-#donate-button {
-  background-color: #003366;
-  border-radius: 15px;
-  border-style: solid;
-  left: 40%;
-  width: 300px;
-  height: 50px;
-  color: white;
-  font-size: 2.0em;
-  margin-bottom: 10px;
-}
-
-#donate-button:hover {
-  background-color: #98CC9B;
-  color: black;
-}
-
-
-/*Support us*/
+/*Introduction*/
 
 /*latest events*/
 
 #latest-events-title {
   margin: 10px;
   text-align: center;
-  font-size: 3.5em;
   color: #003366;
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .latest-events {
@@ -199,8 +174,50 @@ ul .dropdown-menu {
   color: black;
 }
 
-
 /*latest events*/
+
+/*Support us*/
+
+#support-us {
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+}
+
+#support-us > h2 {
+	margin-bottom: 20px;
+  color: #003366;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#support-us > p {
+  font-family: 'Neuton', sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+#support-us > p > span {
+  font-size: 1.1em;
+
+}
+
+#donate-button {
+  background-color: #003366;
+  border-radius: 15px;
+  border-style: solid;
+  left: 40%;
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: 2.0em;
+  margin-bottom: 10px;
+}
+
+#donate-button:hover {
+  background-color: #98CC9B;
+  color: black;
+}
+
+/*Support us*/
 
 /*JUMBOTRON*/
 
@@ -258,7 +275,8 @@ footer {
 	text-align: center;
 	margin: 20px;
 	font-size: 20px;
-	font-style: italic;
+	font-family: 'Neuton', sans-serif;
+  font-style: italic;
 	color: #003366;
 }
 
@@ -381,8 +399,8 @@ footer {
 	}
 
 	/*support us*/
-  /*JUMBOTRON*/
 
+  /*JUMBOTRON*/
 }
 
 
@@ -443,6 +461,15 @@ footer {
   }
   /*END of Image sliding in Jumbotron*/
 
+
+  /*latest events*/
+  
+  .event-comment {
+  font-size: 2.5vw;
+  }
+
+  /*latest events*/
+  
   /*support us*/
   
   #support-us > p {
@@ -452,14 +479,6 @@ footer {
 	}
 
 	/*support us*/
-
-  /*latest events*/
-  
-  .event-comment {
-  font-size: 2.5vw;
-  }
-
-  /*latest events*/
 
   /*JUMBOTRON*/
 
