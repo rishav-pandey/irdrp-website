@@ -1,21 +1,15 @@
 * {
   box-sizing:border-box
 }
-body {
-  font-size: 16px;
-  color: #fff;
-  font-family: sans-serif;
-}
-
 
 #header-nav {
   background-color: #98CC9B;
 }
 
 #logo-img {
-  background: url('../images/logo_large.png') no-repeat;
-  width: 100px;
-  height: 100px;
+  background: url('../images/logo_medium.png') no-repeat;
+  width: 75px;
+  height: 75px;
   margin: 10px 15px 10px 0;
   border-radius: 10px;
 }
@@ -25,7 +19,7 @@ body {
 }
 
 .navbar-brand h2 { 
-  font-family: 'Allerta Stencil';
+  font-family: 'Montserrat';
   color: #003366;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -39,7 +33,7 @@ body {
   color: #000;
   text-transform: uppercase;
   margin-top: 15px;
-  font-family: 'Allerta Stencil';
+  font-family: 'Montserrat';
   color: black;
 }
 
@@ -61,7 +55,7 @@ ul .dropdown-menu {
 }
 
 .navbar-header button.navbar-toggle {
-  border: 1px lightpink;
+  border: 2px #003366;
   clear: both;
   margin-top: -30px;
 }
@@ -102,7 +96,7 @@ ul .dropdown-menu {
 .image-text > p {
   margin: 10px 10px 10px 50px;
   color: white;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family:  'Neuton', sans-serif;
   font-style: italic;
 }
 
@@ -110,7 +104,7 @@ ul .dropdown-menu {
   text-align: center;
   margin-top: 0px; 
   color: white;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family:  'Neuton', sans-serif;
   font-style: italic;
 }
 
@@ -127,12 +121,11 @@ ul .dropdown-menu {
 
 #support-us > h2 {
   color: #003366;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #support-us > p {
   font-style: italic;
-  text-align: center;
   color: black;
 }
 
@@ -167,7 +160,7 @@ ul .dropdown-menu {
   text-align: center;
   font-size: 3.5em;
   color: #003366;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family:  'Montserrat', sans-serif;
 }
 
 .latest-events {
@@ -202,6 +195,8 @@ ul .dropdown-menu {
   opacity: 0.8;
   display: none;
   font-size: 16px;
+  font-family: 'Neuton';
+  color: black;
 }
 
 
@@ -225,7 +220,7 @@ footer {
 }
 
 .footer-contact > h1 {
-	font-family: 'Allerta Stencil';
+	font-family:  'Montserrat';
 	color: #003366;
 	margin-bottom: 0px;
 	margin-left: 20px;
@@ -234,8 +229,8 @@ footer {
 
 #contact-detail {
 	padding: 10px;
-	font-size: 1.5em;
-	color: black;
+	font-size: 1.8em;
+	font-family: 'Neuton';
 }
 
 #around-web {
@@ -244,7 +239,7 @@ footer {
 }
 
 #around-web > h2 {
-	font-family: 'Allerta Stencil';
+	font-family: 'Montserrat';
 	font-style: italic;
 	color: #003366;
 }
@@ -253,6 +248,10 @@ footer {
 	font-size: 25px;
 	padding: 10px;
 	color: black;
+}
+
+#around-web > div > a:hover {
+	font-size: 35px;
 }
 
 #copyright {
@@ -269,22 +268,14 @@ footer {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   
-#nav-list {
+	#nav-list {
     height: 50px;
-  }
+ 	}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  
-  #logo-img {
-  background: url('../images/logo_medium.png') no-repeat;
-  width: 75px;
-  height: 75px;
-  margin: 5px 5px 5px 0;
-  border-radius: 10px;
-  }
 
   #nav-list {
     height: 50px;
@@ -316,7 +307,7 @@ footer {
   .image-text > p {
     margin: 10px 10px 10px 50px;
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
@@ -325,7 +316,7 @@ footer {
     text-align: center;
     margin-top: 0px; 
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
@@ -338,14 +329,6 @@ footer {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
-  #logo-img {
-  background: url('../images/logo_small.png') no-repeat;
-  width: 50px;
-  height: 50px;
-  margin: 5px 5px 5px 0;
-  border-radius: 10px;
-  }
 
   #nav-list {
     height: 50px;
@@ -375,7 +358,7 @@ footer {
   .image-text > p {
     margin: 0px 10px 10px 30px;
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
@@ -383,12 +366,21 @@ footer {
     text-align: center;
     margin-top: 0px; 
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
   /*END of Image sliding in Jumbotron*/
 
+  /*support us*/
+  
+  #support-us > p {
+  text-align: center;
+  font-style: italic;
+  color: black;
+	}
+
+	/*support us*/
   /*JUMBOTRON*/
 
 }
@@ -437,7 +429,7 @@ footer {
   .image-text > p {
     margin: 5px 10px 10px 50px;
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
@@ -445,11 +437,21 @@ footer {
     text-align: center; 
     margin-bottom: 5px;
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
   /*END of Image sliding in Jumbotron*/
+
+  /*support us*/
+  
+  #support-us > p {
+  text-align: center;
+  font-style: italic;
+  color: black;
+	}
+
+	/*support us*/
 
   /*latest events*/
   
@@ -490,7 +492,7 @@ footer {
   .image-text > p {
     margin: 5px 10px 10px 20px;
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.8vw;
   }
@@ -498,25 +500,36 @@ footer {
     text-align: center;
     margin-top: 2px; 
     color: white;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.8vw;
   }
   /*END of Image sliding in Jumbotron*/
 
+  /*support us*/
+  
+  #support-us > p {
+  text-align: center;
+  font-style: italic;
+  color: black;
+	}
+
+	/*support us*/
+
   /*JUMBOTRON*/
 
   /*FOOTER*/
+
+  .footer-contact > h1 {
+  	margin-left: 0px;
+  }
 
   #contact-detail {
 	padding: 10px;
 	font-size: 5vw;
 	color: black;
-	}
-
-	#contact-detail {
-		width: 160%;
-		margin-left: -55px;
+	width: 160%;
+	margin-left: -55px;
 	}
 
 	#map {
