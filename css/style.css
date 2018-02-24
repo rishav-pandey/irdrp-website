@@ -507,4 +507,12 @@ footer {
 
   /*JUMBOTRON*/
 
+  /*FOOTER*/
+
+  #contact-detail {
+	padding: 10px;
+	font-size: 4vw;
+	color: black;
+}
+
 }
