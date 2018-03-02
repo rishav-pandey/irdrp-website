@@ -219,6 +219,67 @@ ul .dropdown-menu {
 
 /*Support us*/
 
+/*Board-Member*/
+
+#board-heading {
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.board-image {
+  margin: 20px;
+  position: relative;
+  height: 398px;
+}
+
+#image1 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
+#image2 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
+#image3 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
+.member-intro {
+  position: absolute;
+  border: 1px solid black;
+  width: 100%;
+  height: 120px;
+  background-color: #98cc9a;
+  bottom: -1px;
+  left: -0.5px;
+  text-align: center;
+  color: #003366;
+  text-transform: uppercase;
+}
+
+p.member-name {
+  font-size: 1.8em;
+}
+
+.member-intro p {
+  margin-bottom: 0px;
+}
+
+p.member-degree {
+  font-size: 1.5em;
+}
+
+
+/*Board-Member*/
+
 /*JUMBOTRON*/
 
 /*FOOTER*/
