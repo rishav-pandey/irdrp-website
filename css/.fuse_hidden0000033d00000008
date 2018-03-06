@@ -2,6 +2,10 @@
   box-sizing:border-box
 }
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 #header-nav {
   background-color: #98CC9B;
 }
@@ -96,7 +100,7 @@ ul .dropdown-menu {
 .image-text > p {
   margin: 10px 10px 10px 50px;
   color: white;
-  font-family:  'Neuton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
 }
 
@@ -104,7 +108,7 @@ ul .dropdown-menu {
   text-align: center;
   margin-top: 0px; 
   color: white;
-  font-family: 'Neuton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
 }
 
@@ -113,7 +117,7 @@ ul .dropdown-menu {
 /*Introduction*/
 
 #intro > h2 {
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
   color: #003366;
 }
 
@@ -186,7 +190,7 @@ ul .dropdown-menu {
 #support-us > h2 {
 	margin-bottom: 20px;
   color: #003366;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #support-us > p {
@@ -205,7 +209,7 @@ ul .dropdown-menu {
   border-radius: 15px;
   border-style: solid;
   left: 40%;
-  width: 270px;
+  width: 300px;
   height: 50px;
   color: white;
   font-size: 2.0em;
@@ -234,6 +238,24 @@ ul .dropdown-menu {
   height: 398px;
 }
 
+#image1 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
+#image2 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
+#image3 {
+  background: url(http://via.placeholder.com/318x280);
+  width: 318px;
+  height: 280px;
+}
+
 .member-intro {
   position: absolute;
   border: 1px solid black;
@@ -259,6 +281,7 @@ p.member-degree {
   font-size: 1.5em;
 }
 
+
 /*Board-Member*/
 
 /*JUMBOTRON*/
@@ -271,20 +294,21 @@ footer {
 
 .footer-contact {
   width: auto;
-  height: 250px;
+  height: 300px;
   font-family: serif;
-  margin-top: 20px;
-  padding: 20px 80px 20px 80px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  padding: 20px;
 }
 
 .footer-contact > h1 {
 	font-family:  'Montserrat';
 	color: #003366;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	margin-left: 20px;
 	font-style: italic;
-	margin-top: 0px;
+	text-transform: uppercase;
+	text-align: center;
+
 }
 
 #contact-detail {
@@ -318,7 +342,7 @@ footer {
 	text-align: center;
 	margin: 20px;
 	font-size: 20px;
-	font-family: 'Neuton', sans-serif;
+	font-family: 'Montserrat', sans-serif;
   font-style: italic;
 	color: #003366;
 }
@@ -386,7 +410,25 @@ footer {
 
   /*JUMBOTRON*/
 
-	/*Board-Member*/
+/*Board-Member*/
+
+  #image1 {
+    background: url(http://via.placeholder.com/276.33x200);
+    width: 276.4px;
+    height: 200px;
+  }
+
+  #image2 {
+    background: url(http://via.placeholder.com/261.4x200);
+    width: 261.4px;
+    height: 200px;
+  }
+
+  #image3 {
+    background: url(http://via.placeholder.com/261.35x200);
+    width: 261.35px;
+    height: 200px;
+  }
 
   .board-image {
     margin: 15px;
@@ -454,6 +496,24 @@ footer {
   /*JUMBOTRON*/
 
   /*Board-Member*/
+
+  #image1 {
+    background: url(http://via.placeholder.com/235x200);
+    width: 235px;
+    height: 200px;
+  }
+
+  #image2 {
+    background: url(http://via.placeholder.com/220x200);
+    width: 220px;
+    height: 200px;
+  }
+
+  #image3 {
+    background: url(http://via.placeholder.com/220x200);
+    width: 220px;
+    height: 200px;
+  }
 
   p.member-name {
     font-size: 1.5em;
@@ -609,7 +669,7 @@ footer {
 
   #contact-detail {
   padding: 10px;
-  font-size: 6vw;
+  font-size: 5vw;
   color: black;
   width: 160%;
   margin-left: -55px;
@@ -617,28 +677,85 @@ footer {
 
   #map {
     width: 160%;
-    margin: 0px 0px -20px -55px;
+    margin: -50px 0px 0px -55px;
   }
 
   /*FOOTER*/
+
+  /*Board-Member*/
+
+#image1 {
+  background: url(http://via.placeholder.com/355x280);
+  width: 355px;
+  height: 280px;
+}
+
+#image2 {
+  background: url(http://via.placeholder.com/355x280);
+  width: 355px;
+  height: 280px;
+}
+
+#image3 {
+  background: url(http://via.placeholder.com/355x280);
+  width: 355px;
+  height: 280px;
+}
+
+/*Board-Member*/
 
 }
 
 /********** Large Mobile devices only **********/
 @media (max-width: 380px) {
 
+/*Board-Member*/
+
+#image1 {
+  background: url(http://via.placeholder.com/290x280);
+  width: 290px;
+  height: 280px;
+}
+
+#image2 {
+  background: url(http://via.placeholder.com/290x280);
+  width: 290px;
+  height: 280px;
+}
+
+#image3 {
+  background: url(http://via.placeholder.com/290x280);
+  width: 290px;
+  height: 280px;
+}
+
+/*Board-Member*/
+
 }
 
 /********** small Mobile devices only (eg: Iphone 4, ) **********/
 @media (max-width: 330px) {
-	
-	.footer-contact {
-  width: auto;
-  height: 250px;
-  font-family: serif;
-  margin-top: 20px;
-  padding: 20px 60px 20px 60px;
 
+/*Board-Member*/
+
+#image1 {
+  background: url(http://via.placeholder.com/250x280);
+  width: 250px;
+  height: 280px;
 }
+
+#image2 {
+  background: url(http://via.placeholder.com/250x280);
+  width: 250px;
+  height: 280px;
+}
+
+#image3 {
+  background: url(http://via.placeholder.com/250x280);
+  width: 250px;
+  height: 280px;
+}
+
+/*Board-Member*/
 
 }

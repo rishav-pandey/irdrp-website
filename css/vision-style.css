@@ -1,0 +1,60 @@
+#vision {
+	margin: 100px;
+}
+
+.vision-heading {
+	position: relative;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.vision-heading h2 {
+	font-size: 1.5em;
+}
+
+.vision-heading > h2::before {
+	content: "";
+	background-color: #04ade6;
+	position: absolute;
+	width: 5px;
+	left: -10px;
+	top: 5px;
+	height: 40px;
+}
+
+#vision-text {
+	margin-top: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#vision > h1::before {
+	content: "";
+  height: 70%;
+  left: 50px;
+  position: absolute;
+  top: 15%;
+  width: 4px;
+	background-color: #aba;
+}*/
