@@ -18,7 +18,7 @@
   padding-top: 25px;
 }
 
-.navbar-brand h2 { 
+.navbar-brand h2 {
   font-family: 'Montserrat';
   color: #003366;
   font-size: 1.5em;
@@ -29,16 +29,21 @@
   line-height: .75;
 }
 
-.navbar-brand p, #ngo-link { 
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand p, #ngo-link {
   color: #000;
   text-transform: uppercase;
   margin-top: 15px;
   font-family: 'Montserrat';
   color: black;
+  text-decoration: none;
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-right: 10px;
 }
 
 #nav-list a {
@@ -60,6 +65,24 @@ ul .dropdown-menu {
   margin-top: -30px;
 }
 
+#donate {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#donate button {
+  padding: 5px 10px;
+  color: #003366;
+  font-size: 1.5em;
+  border-radius: 5px;
+  border: 1px solid #003366;
+
+}
+
+#donate button:hover {
+  color: #fff;
+  background-color: #003366;
+}
 /* End of Header*/
 
 .jumbotron {
@@ -102,7 +125,7 @@ ul .dropdown-menu {
 
 .image-text > div > p {
   text-align: center;
-  margin-top: 0px; 
+  margin-top: 0px;
   color: white;
   font-family: 'Neuton', sans-serif;
   font-style: italic;
@@ -115,6 +138,18 @@ ul .dropdown-menu {
 #intro > h2 {
 	font-family: sans-serif;
   color: #003366;
+  position: relative;
+  font-size: 2.5em;
+}
+
+#intro > h2::before {
+    content: "";
+    background-color: #98CC9B;
+    position: absolute;
+    width: 5px;
+    left: -10px;
+    top: 3px;
+    height: 35px;
 }
 
 #intro {
@@ -187,6 +222,18 @@ ul .dropdown-menu {
 	margin-bottom: 20px;
   color: #003366;
   font-family: sans-serif;
+  position: relative;
+  font-size: 2.5em;
+}
+
+#support-us > h2::before {
+    content: "";
+    background-color: #98CC9B;
+    position: absolute;
+    width: 5px;
+    left: -10px;
+    top: 3px;
+    height: 35px;
 }
 
 #support-us > p {
@@ -328,7 +375,7 @@ footer {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  
+
 	#nav-list {
     height: 50px;
  	}
@@ -341,7 +388,7 @@ footer {
   #nav-list {
     height: 50px;
   }
-  
+
   /* End Header */
 
   /*JUMBOTRON*/
@@ -375,13 +422,13 @@ footer {
 
   .image-text > div > p {
     text-align: center;
-    margin-top: 0px; 
+    margin-top: 0px;
     color: white;
     font-family:  'Montserrat', sans-serif;
     font-style: italic;
     font-size: 1.2em;
   }
-  
+
   /*END of Image sliding in Jumbotron*/
 
   /*JUMBOTRON*/
@@ -433,7 +480,7 @@ footer {
   }
   .image-text > div > p {
     text-align: center;
-    margin-top: 0px; 
+    margin-top: 0px;
     color: white;
     font-family:  'Montserrat', sans-serif;
     font-style: italic;
@@ -442,7 +489,7 @@ footer {
   /*END of Image sliding in Jumbotron*/
 
   /*support us*/
-  
+
   #support-us > p {
   text-align: center;
   font-style: italic;
@@ -471,20 +518,20 @@ footer {
 @media (max-width: 767px) {
 
 /* Header */
-  
+
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h2 { 
+  .navbar-brand h2 {
     padding-top: 10px;
-    font-size: 5vw; 
+    font-size: 5vw;
   }
   .navbar-brand p {
     font-size: 1.0em;
     margin-top: 12px;
   }
-  
+
   /* End Header */
 
   /*JUMBOTRON*/
@@ -516,7 +563,7 @@ footer {
     font-size: 1.2em;
   }
   .image-text > div > p {
-    text-align: center; 
+    text-align: center;
     margin-bottom: 5px;
     color: white;
     font-family:  'Montserrat', sans-serif;
@@ -527,15 +574,15 @@ footer {
 
 
   /*latest events*/
-  
+
   .event-comment {
   font-size: 2.5vw;
   }
 
   /*latest events*/
-  
+
   /*support us*/
-  
+
   #support-us > p {
   text-align: center;
   font-style: italic;
@@ -581,7 +628,7 @@ footer {
   }
   .image-text > div > p {
     text-align: center;
-    margin-top: 2px; 
+    margin-top: 2px;
     color: white;
     font-family:  'Montserrat', sans-serif;
     font-style: italic;
@@ -590,7 +637,7 @@ footer {
   /*END of Image sliding in Jumbotron*/
 
   /*support us*/
-  
+
   #support-us > p {
   text-align: center;
   font-style: italic;
@@ -631,7 +678,7 @@ footer {
 
 /********** small Mobile devices only (eg: Iphone 4, ) **********/
 @media (max-width: 330px) {
-	
+
 	.footer-contact {
   width: auto;
   height: 250px;

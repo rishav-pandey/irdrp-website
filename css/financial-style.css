@@ -1,0 +1,33 @@
+#finance {
+    margin: 100px;
+}
+
+.finance-heading {
+    position: relative;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.finance-heading h2 {
+    font-size: 1.5em;
+}
+
+.finance-heading > h2::before {
+    content: "";
+    background-color: #98CC9B;
+    position: absolute;
+    width: 5px;
+    left: -10px;
+    top: 5px;
+    height: 40px;
+}
+
+#finance-list {
+  margin-top: 50px;
+}
+
+#finance-list li{
+    margin: 5px 0px;
+    font-size: 2em;
+    padding: 5px;
+}
