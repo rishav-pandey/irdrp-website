@@ -1,0 +1,29 @@
+#objective {
+  margin-top: 100px;
+  line-height: 2;
+}
+
+#objective-heading {
+  position: relative;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#objective-heading h2 {
+  font-size: 1.5em;
+}
+
+#objective-heading > h2::before {
+  content: "";
+  background-color: #98CC9B;
+  position: absolute;
+  width: 5px;
+  left: -10px;
+  top: 5px;
+  height: 40px;
+}
+
+#objective-text {
+  font-size: 1.8em;
+  font-style: italic;
+}
