@@ -1,0 +1,27 @@
+#main-section {
+  margin-top: 100px;
+  line-height: 2;
+}
+
+#main-heading {
+  position: relative;
+  text-transform: uppercase;
+}
+
+#main-heading h2 {
+  font-size: 2.5em;
+}
+
+#main-heading > h2::before {
+  content: "";
+  background-color: #98CC9B;
+  position: absolute;
+  width: 5px;
+  left: -10px;
+  top: 5px;
+  height: 30px;
+}
+
+.photo-series1, .photo-series2 {
+  padding: 10px 0px;
+}
