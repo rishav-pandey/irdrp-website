@@ -1,0 +1,28 @@
+#skill {
+  margin-top: 100px;
+  line-height: 2;
+}
+
+.skill-heading {
+  position: relative;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.skill-heading h2 {
+  font-size: 1.5em;
+}
+
+.skill-heading > h2::before {
+  content: "";
+  background-color: #98CC9B;
+  position: absolute;
+  width: 5px;
+  left: -10px;
+  top: 5px;
+  height: 40px;
+}
+
+#skill-text {
+  margin-top:
+}
