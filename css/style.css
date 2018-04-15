@@ -275,35 +275,28 @@ ul .dropdown-menu {
   font-weight: 500;
 }
 
-.board-image {
-  margin: 20px;
-  position: relative;
-  height: 398px;
+.board-members {
+  border: 1px solid #003366;
+  padding: 10px;
+  margin: 10px;
+  background-color: #98CC9B;
+  text-align: center;
+}
+
+.board-members {
+  color: #003366;
+}
+
+.member-name {
+  font-size: 2em;
+}
+
+.member-degree {
+  font-size: 1.5em;
 }
 
 .member-intro {
-  position: absolute;
-  border: 1px solid black;
-  width: 100%;
-  height: 120px;
-  background-color: #98cc9a;
-  bottom: 40px;
-  left: -0.5px;
-  text-align: center;
-  color: #003366;
-  text-transform: uppercase;
-}
-
-p.member-name {
-  font-size: 1.8em;
-}
-
-.member-intro p {
-  margin-bottom: 0px;
-}
-
-p.member-degree {
-  font-size: 1.5em;
+  font-size: 1.5em !important;
 }
 
 /*Board-Member*/
