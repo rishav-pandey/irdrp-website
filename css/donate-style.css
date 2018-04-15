@@ -1,0 +1,49 @@
+#main-section {
+  margin-top: 100px;
+  line-height: 2;
+}
+
+#main-heading {
+  position: relative;
+  text-transform: uppercase;
+}
+
+#main-heading h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+#main-heading > h2::before {
+  content: "";
+  background-color: #98CC9B;
+  position: absolute;
+  width: 5px;
+  left: -10px;
+  top: 5px;
+  height: 30px;
+}
+
+#quote > p {
+  font-size: 2.5em;
+}
+
+#donate-detail {
+  font-size: 1.5em;
+}
+
+table {
+  width: 100%;
+}
+
+table tbody tr td {
+  border: 1px solid #dddddd;
+  padding: 10px 10px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
