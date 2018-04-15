@@ -10,6 +10,7 @@
 
 .annual-heading h2 {
     font-size: 1.5em;
+    color: #003366;
 }
 
 .annual-heading > h2::before {

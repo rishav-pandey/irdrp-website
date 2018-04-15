@@ -10,6 +10,7 @@
 
 .finance-heading h2 {
     font-size: 1.5em;
+    color: #003366;
 }
 
 .finance-heading > h2::before {

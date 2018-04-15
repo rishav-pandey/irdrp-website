@@ -10,6 +10,7 @@
 
 .vision-heading h2 {
 	font-size: 1.5em;
+  color: #003366;
 }
 
 .vision-heading > h2::before {
