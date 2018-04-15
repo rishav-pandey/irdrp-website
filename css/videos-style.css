@@ -10,6 +10,7 @@
 
 #main-heading h2 {
   font-size: 2.5em;
+  color: #003366;
 }
 
 #main-heading > h2::before {
@@ -22,6 +23,8 @@
   height: 30px;
 }
 
-.video-series1, .video-series2 {
-  padding: 10px 0px;
+.videos {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
 }
